@@ -1,8 +1,12 @@
 # SQLZoo dan apa yang saya pelajari darinya
 
-Tags: Dokumentasi
-author: Bulan Nurlaela
-Cats: Data
+
+![](https://github.com/Lanlanb/Portofolio/blob/main/SQLZoo/Sources/sql_cover.jpeg)
+
+
+*Latihan ini juga tersedia dalam [website pribadi saya](https://nurlaelabulan.my.id/sqlzoo-dan-apa-yang-saya-pelajari-darinya)*. Silahkan dilihat.<br>
+
+
 
 # Prakata
 
@@ -28,4 +32,4 @@ Sehingga dengan hal itu, saya membagi pembelajaran menjadi beberapa fase:
 
 Tetapi jika melihat dari urutan pada SQLZoo sendiri, maka inilah yang didapatkan:
 
-- [SELECT Basics](https://nurlaelabulan.my.id/sqlzoo-select-basics)
+- [SELECT Basics](https://github.com/Lanlanb/Portofolio/blob/d4c52e29f396a8263b25e5940e538515ccf96793/SQLZoo/SELECT%20basics.sql#L7)
