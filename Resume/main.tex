@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingEdu}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Bulan Nurlaela} \\ \vspace{1pt}
+    \small \href{https://nurlaelabulan.my.id}{\underline{nurlaelabulan.my.id}} $|$ 
+    \href{mailto: contact@nurlaelabulan.my.id}
+    {\underline{contact@nurlaelabulan.my.id}} $|$ 
+    \href{https://www.linkedin.com/in/bulan-nurlaela}{\underline{linkedin.com/in/bulan-nurlaela}} $|$
+    \href{https://github.com/Lanlanb}{\underline{github.com/Lanlanb}} $|$ 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingEdu
+      {SMK Arrahman}{Depok, Jawa Barat, IDN}
+      {Otomatisasi dan Tata Kelola Perkantoran}
+      {Juli 2020 -- Mei 2023}
+      {Subjects: Matematika, Bahasa Indonesia, Simulasi dan Komunikasi Digital}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {\textbf{Anggota KPPS (PILKADA)}}{Nov -- Dec 2024}
+      {Komisi Pemilihan Umum}{Cipayung, Depok}
+      \resumeItemListStart
+     \resumeItem{Memetakan surat suara, memastikan akurasi dengan tingkat kesalahan kurang dari 2\% setelah proses verifikasi ulang. }
+        \resumeItem{Berperan dalam mencegah kecurangan pemilu dengan memastikan 400+ pemilih mendapatkan tinta di kuku.}
+        \resumeItem{Menyelesaikan ketidaksesuaian (15+ kasus mismatch) melalui komunikasi langsung dengan warga. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Petugas Pemutakhiran Data Pemilih (\textit{PILKADA})}{Juni -- Juli 2024}
+      {Komisi Pemilihan Umum}{Cipayung, Depok}
+      \resumeItemListStart
+        \resumeItem{Menghasilkan data valid sebanyak +250 entry (akurasi: 96.2\%) di wilayah tugas dengan rekonsiliasi manual Daftar Pemilih Tetap (DPT) vs digital data (cross-check database).}
+        \resumeItem{Mengidentifikasi dan menangani entri pemilih tidak valid (3.8\% dari error rate data yang ditangani langsung) melalui strategi validasi langsung, follow-up door-to-door, dan pelaporan anomali.}
+        \resumeItem{Sinkronisasi log harian pada laporan spreadsheet dengan aplikasi E-coklit Mobile, mendapatkan 51.5\%  dari total +500 data pemilih utuh   (Pantarlih lain).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Saksi Pemilihan Presiden}{29 Feb. 2024}
+      {Partai Keadilan Sejahtera}{Cipayung, Depok}
+      \resumeItemListStart
+        \resumeItem{Memverifikasi data kehadiran +200 pemilih terhadap Daftar Pemilih Tetap (DPT), memastikan partisipasi 70.2\% sesuai target keterwakilan.}
+        \resumeItem{Melakukan real-time tracking selama +12 jam menggunakan pencatatan kertas (manual tracking).}
+        \resumeItem{Serah terima 3 dokumen resmi (Form C-Hasil, C-Kehadiran, Berita Acara) sebagai bagian dari reporting dan compliance submission ke pengawas dan internal partai.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{BugTracker3000} $|$ \emph{Next.js, MongoDB, Tailwind CSS, ChatGPT API}}{Aug. 2023 -- Dec. 2023}
+          \resumeItemListStart
+            \resumeItem{Built a bug tracking system that ironically introduced more bugs than it resolved, team now refers to it as a "feature discovery engine."}
+            \resumeItem{Integrated ChatGPT to auto-generate bug explanations that sound convincing but are legally 87\% speculation.}
+            \resumeItem{UI so clean and minimalist, QA team couldn’t find the “Submit Bug” button, reducing bug reports by 100\% overnight.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{AI Horoscope Generator} $|$ \emph{Python, Flask, OpenAI API, Redis, Bootstrap}}{May 2023 -- July 2023}
+          \resumeItemListStart
+            \resumeItem{Created an LLM-powered astrology webapp that gives eerily accurate predictions based on your birth date and internet search history.}
+            \resumeItem{Cached horoscopes with Redis to ensure users get the same vague advice every day, reinforcing their false sense of cosmic destiny.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Javascript, Typescript, Python, Golang, Java} \\
+     \textbf{Frameworks}{: React, Next.js, Node.js, Fastify, Express.js, Nest.js, Flask, FastAPI, Django, Spring Boot} \\
+     \textbf{Databases}{: PostgreSQL, MySQL, SQLite, MongoDB, Redis, DynamoDB} \\
+     \textbf{Developer Tools}{: Git, Docker, AWS, GCP, Azure, Apache Kafka, RabbitMQ, SonarQube, Prometheus, VS Code} 
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
